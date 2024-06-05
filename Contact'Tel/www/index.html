@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+        <link rel="stylesheet" href="lib/jquery.mobile-1.4.5.min.css"></link>
+        <link rel="stylesheet" href="css/index.css">
+        <script src="lib/jquery.min.js"></script>
+        <script src="lib/jquery.mobile-1.4.5.min.js"></script>
+        <script src="js/index.js"></script>
+        <script src="cordova.js"></script>
+        <title>Contact'Tel</title>
+    </head>
+    <body>
+        <div data-role="page">
+            <div data-role="header">
+                <h1>Contact'Tel</h1>
+                
+            </div>
+            <div role="main" class="ui-content">
+                <a href="#" data-role="button" data-icon="arrow-r" data-iconpos="right">Ajouter</a>
+                <!-- <a href="#" data-role="button" data-icon="plus" data-iconpos="right" onclick="createContact()">Ajouter</a> -->
+                <ul id="contactList" data-role="listview" data-inset="true" data-filter="true" data-filter-placeholder="Rechercher contact">
+                    <li>
+                        <a href="#">
+                            <img src="images/avatar.png" alt="photo de profil du contact">
+                            <h1>Mansour Niang</h1>
+                            <p>77 361 61 61</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/woman.jpeg" alt="photo de profil du contact">
+                            <h1>Zaza</h1>
+                            <p>78 200 81 28</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/woman.jpeg" alt="photo de profil du contact">
+                            <h1>Mom</h1>
+                            <p>77 123 45 67</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/avatar.png" alt="photo de profil du contact">
+                            <h1>Hameth Diallo</h1>
+                            <p>77 654 22 09</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/woman.jpeg" alt="photo de profil du contact">
+                            <h1>Khady Tall</h1>
+                            <p>75 437 98 24</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/avatar.png" alt="photo de profil du contact">
+                            <h1>Iba Sow</h1>
+                            <p>75 261 68 61</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div data-role="footer" data-position="fixed">
+                <h1>DIC3 &copy; 2024</h1>
+            </div>
+            
+        </div>
+    </body>
+</html>
